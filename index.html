@@ -1,10 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Ninja Games</title>
+    <meta charset="UTF-8">
+    <title>Juegos Ninja - Multiplicación</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #4facfe, #43e97b);
+        }
+
+        h1 {
+            color: white;
+            margin-top: 40px;
+            font-size: 40px;
+        }
+
+        p {
+            color: white;
+            font-size: 20px;
+        }
+
+        .contenedor {
+            margin-top: 50px;
+        }
+
+        .boton {
+            display: inline-block;
+            margin: 15px;
+            padding: 20px 40px;
+            font-size: 22px;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+
+        .boton1 { background-color: #ff6b6b; }
+        .boton2 { background-color: #feca57; }
+        .boton3 { background-color: #48dbfb; }
+        .boton4 { background-color: #1dd1a1; }
+
+        .boton:hover {
+            transform: scale(1.1);
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenido a Ninja Games</h1>
-    <p>Mi página está funcionando 🎉</p>
+
+    <h1>🥷 Juegos Ninja de Multiplicación</h1>
+    <p>¡Elige un juego y conviértete en maestro ninja!</p>
+
+    <div class="contenedor">
+        <a href="juego1.html" class="boton boton1">Juego Tabla del 2</a>
+        <a href="juego2.html" class="boton boton2">Juego Tabla del 3</a>
+        <a href="juego3.html" class="boton boton3">Juego Tabla del 4</a>
+        <a href="juego4.html" class="boton boton4">Juego Tabla del 5</a>
+    </div>
+
 </body>
 </html>
